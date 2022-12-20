@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>columnas alineadas horizontalmente</title>
+	<style>
+        body {
+            background: #f0f3f5;
+        }
+        header {
+            background: #9aca40;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: #fff;
+            
+        }
+
+        main .col-sm-12{
+            background: #fff;
+            padding: 10px;
+        }
+        main .col-12.col-md-4{
+            background: #dee5e8;
+            height: 180px;
+            padding: 50px 0 0 10px;
+            color: #0d47a1;
+        }
+        main .col-12 h1{
+            font-size: 2rem;
+        }
+        .widgets {
+            padding: 20px 0 0;
+        }
+        .widgets .col-4 {
+            background: #2196f3;
+            color: #fff;
+            
+        }
+        footer .row {
+            margin-top: 20px;
+            padding: 20px;
+            background: black;
+            color: #fff;
+        }
+        footer h1 {
+            font-size: 2rem;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col">
+                <h1>HEADER</h1>
+                <p>12 Columnas</p>
+            </div>
+        </header>
+        <main class="row align-items-center">
+            <div class="col-sm-12 col-lg-8">
+                <h1>MAIN</h1>
+                <p>8 Columnas</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <h1>ASIDE</h1>
+                <p>4 Columnas</p>
+            </div>
+        </main>  
+
+        <div class="row justify-content-between widgets ">
+            <div class="col-4 col-md-12 col-lg-3">
+                <p>3 Columnas</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-4 col-md-12 col-lg-3">
+                <p>3 Columnas</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-4 col-md-12 col-lg-3">
+                <p>3 Columnas</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="row">
+                <div class="col-12">
+                    <h1>Footer</h1>
+                    <p>12 Columnas</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
